@@ -5,6 +5,7 @@
 #include <string>
 #include <sstream>
 #include "Introduction.h"
+#include "Strings.h"
 
 void Exit() {
 	bool exit = true;
@@ -20,7 +21,8 @@ void Exit() {
 }
 
 int main() {
-	VirtualFunctions();
+	AttributeParser();
+
 	Exit();
 	return 0;
 }
