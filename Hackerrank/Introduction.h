@@ -4,6 +4,7 @@
 #include <sstream>
 #include <vector>
 #include <iterator>
+#include <list>
 
 using namespace std;
 
@@ -20,4 +21,10 @@ void ForLoop();
 void Function();
 
 void Pointer();
+
+void ArraysIntroduction();
+
+void VariableSizedArrays();
+
+void VirtualFunctions();
 

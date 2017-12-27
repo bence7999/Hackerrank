@@ -20,7 +20,7 @@ void Exit() {
 }
 
 int main() {
-	Pointer();
+	VirtualFunctions();
 	Exit();
 	return 0;
 }
