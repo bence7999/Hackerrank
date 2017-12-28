@@ -6,6 +6,7 @@
 #include <sstream>
 #include "Introduction.h"
 #include "Strings.h"
+#include "Classes.h"
 
 void Exit() {
 	bool exit = true;
@@ -21,7 +22,7 @@ void Exit() {
 }
 
 int main() {
-	AttributeParser();
+	AbstractClasses_Polymorphism();
 
 	Exit();
 	return 0;
