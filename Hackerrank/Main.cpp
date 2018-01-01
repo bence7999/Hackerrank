@@ -7,6 +7,7 @@
 #include "Introduction.h"
 #include "Strings.h"
 #include "Classes.h"
+#include "Slt.h"
 
 void Exit() {
 	bool exit = true;
@@ -22,7 +23,7 @@ void Exit() {
 }
 
 int main() {
-	AbstractClasses_Polymorphism();
+	PrintPretty();
 
 	Exit();
 	return 0;
