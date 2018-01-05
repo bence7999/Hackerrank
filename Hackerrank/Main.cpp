@@ -8,6 +8,7 @@
 #include "Strings.h"
 #include "Classes.h"
 #include "Slt.h"
+#include "Inheritance.h"
 
 void Exit() {
 	bool exit = true;
@@ -23,7 +24,7 @@ void Exit() {
 }
 
 int main() {
-	PrintPretty();
+	AccessingInheritedFunctions();
 
 	Exit();
 	return 0;
